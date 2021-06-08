@@ -1,0 +1,43 @@
+{
+ "signatures": [
+  {
+   "keyid": "5f3ea42437552af0592eff4ca0f0f90a710f9ea3d286eb9f94b3779a00ee1df2",
+   "sig": "eedb12e14cd8f35c099f54c5e3df3cf5a74f49847c9f2fede36d93e24e99a6a1b41f76c41741c3faeccc81af96cc0b072e9e2dd57f2fc7b797018d081839ed05"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {
+    "b1a42e74c277b0776691a05cad28fe5846bfadcc47ec8255527190b4a9e64f1b": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "ed25519",
+     "keyval": {
+      "public": "02e6b560fb01ba602ce9a6bdcf342c4d0349b8c5c8881d6dd8cb443905f15aa8"
+     },
+     "scheme": "ed25519"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "b1a42e74c277b0776691a05cad28fe5846bfadcc47ec8255527190b4a9e64f1b"
+     ],
+     "name": "apm",
+     "paths": [
+      "apm/*"
+     ],
+     "terminating": false,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2021-09-07T19:28:28Z",
+  "spec_version": "1.0.0",
+  "targets": {},
+  "version": 2
+ }
+}
